@@ -158,3 +158,184 @@ nav ul li a {
 .product-card h3 {
   margin: 10px 0 5px;
 }
+.product-card button {
+  background: #f15b2a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background: #d44717;
+}
+.prd-des{
+  /* width: 888px; */
+  /* height: 54px; */
+  font-size: 22px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* border: 2px solid tan; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.trusted-section {
+  display: flex;
+  /* align-items: center; */
+   margin: 220px 100px 0 100px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container {
+  position: relative; /* parent relative */
+}
+
+.trusted-badge {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: -150px;
+  left: 370px;
+}
+
+/* .shop-image {
+  width: 400px;
+  height: auto;
+  display: block;
+} */
+.text-container{
+  /* max-width: 1140px; */
+  height: 597px;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+ /* margin: 120px 150px 0 150px; */
+ /* border: 2px solid tomato; */
+}
+
+/* .text-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.text-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.text-container li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  /* display: flex; */
+*/
+.text-title{
+  width: 540px;
+  height: 521px;
+
+}
+.image img{
+  width: 540px;
+  height: 590px;
+}
+.text-head {
+  color: #000000;
+  font-size: 70px;
+  font-weight: bold;
+  /* height: 137px; */
+  width: 540px;
+}
+.text-des{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 430px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  header .logo {
+    margin: 0 0 20px 0;
+  }
+
+  nav {
+    margin: 0;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li a.shop {
+    display: none; 
+  }
+
+  nav ul li:nth-child(3) {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    margin: 50px 20px 0 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .products {
+    margin: 50px 20px;
+  }
+
+  .product-grid {
+    @media (max-width: 430px) {
+  /* baki gula as it is thakbe */
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+
+  }
+
+  .trusted-section {
+    flex-direction: column;
+    margin: 100px 20px;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .trusted-badge {
+    width: 150px;
+    height: 150px;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
